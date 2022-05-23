@@ -1,0 +1,58 @@
+:root {
+  --orange: #f65314;
+  --green: #7cbb00;
+  --blue: #00a1f1;
+  --yellow: #ffbb00;
+  --black: #222;
+}
+.yellow {
+  color: var(--yellow);
+}
+.green {
+  color: var(--green);
+}
+.orange {
+  color: var(--orange);
+}
+.blue {
+  color: var(--blue);
+}
+.black {
+  color: var(--black);
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: calc(2rem + 0.9vw);
+}
+
+body {
+  font-family: monospace;
+  font-size: 22px;
+}
+
+.welcomePage {
+  height: 80vh;
+  width: auto;
+}
+.welcomePage-font {
+  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-size: 5rem;
+  text-align: right;
+}
+.welcomePage-img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .welcomePage {
+    height: min-content;
+    width: auto;
+  }
+  .welcomePage-font {
+    font-size: 4rem;
+    text-align: center;
+  }
+}
