@@ -225,6 +225,9 @@
 
       <script type="text/javascript">
         var gatosFade = document.getElementById("gatos_fade");
+        if (screen.width < 992) {
+          imageChange();
+        }
         window.onresize = function () {
           imageChange();
         };
